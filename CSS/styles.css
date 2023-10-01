@@ -1,0 +1,39 @@
+/**acá va un border box general llamando a los div*/
+/**este box sizing está por encima de cualquier individual (border, margen, width, etc)*/
+div{
+box-sizing: border-box;
+border: 1.5px;
+margin: 0px;
+width: 250px;
+height: 250px;
+}
+
+.cajitaPadding{
+width: 200px;
+height: 200px;
+background-color: aquamarine;
+border: 1px solid red;
+padding: 5px 10px 15px 20px;
+}
+
+.cajitaBorder{
+    border: 10px;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+
+.cajitaMargin{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    background-color: aqua;
+    border: 0.5px dotted;
+}
+
+.cajitaCompleta{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(122, 90, 151);
+    box-sizing: border-box;
+}
